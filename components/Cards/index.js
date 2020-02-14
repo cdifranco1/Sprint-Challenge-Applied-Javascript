@@ -32,12 +32,12 @@ axios('https://lambda-times-backend.herokuapp.com/articles')
 
 
 function createCard(obj){
-  const container = document.createElement('div');
-        headline = document.createElement('div')
-        authorDiv = document.createElement('div');
-        imgContainer = document.createElement('div');
-        image = document.createElement('img');
-        authorName = document.createElement('span')
+  const container = document.createElement('div'),
+        headline = document.createElement('div'),
+        authorDiv = document.createElement('div'),
+        imgContainer = document.createElement('div'),
+        image = document.createElement('img'),
+        authorName = document.createElement('span');
 
   container.classList.add('card');
   headline.classList.add('headline');
@@ -53,4 +53,4 @@ function createCard(obj){
   container.append(headline, authorDiv)
 
   return container;
-}
+};

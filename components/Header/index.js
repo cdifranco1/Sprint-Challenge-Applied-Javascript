@@ -10,9 +10,9 @@
 // And add it to the DOM in the .header-container component
 
 function Header(dateValue, headingText, tempValue, ) {
-  const container = document.createElement("div");
-        date = document.createElement('span');
-        heading = document.createElement('h1');
+  const container = document.createElement("div"),
+        date = document.createElement('span'),
+        heading = document.createElement('h1'),
         temp = document.createElement('span');
 
         container.classList.add('header');
